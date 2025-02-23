@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="prose mx-auto max-w-screen-sm font-[family-name:var(--font-geist-sans)]">
+    <div className="prose mx-auto max-w-screen-sm font-[family-name:var(--font-roboto-sans)]">
       <div className="mt-[70px]">
         <h2>Machine Phase Systems Inc.</h2>
         <p><b>Molecular nanotechnology is within reach.</b></p>
