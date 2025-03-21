@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto, Roboto_Mono } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const robotoSans = Roboto({
   variable: "--font-roboto-sans",
@@ -59,6 +60,11 @@ export default function RootLayout({
       <body
         className={`${robotoSans.variable} ${robotoMono.variable} antialiased`}
       >
+        <Script
+          src="https://analytics.mps.inc/script.js"
+          data-website-id="e920ee90-1c8d-4b4d-bea0-7e9ec539175a"
+          strategy="lazyOnload"
+        />
         {children}
       </body>
     </html>
