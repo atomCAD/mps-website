@@ -13,7 +13,6 @@ export default function Home() {
         <p>We are assembling a lean, cracked team of highly competent engineers and scientists dedicated to the goal of achieving repeatable, reliable machine-phase chemistry, and scaling up these processes to create a system for high-throughput atomically precise manufacturing.</p>
         <p>If that’s you, we offer an opportunity to do your life’s work and help usher in a new technological epoch, a transformation that will permanently alter the foundational technologies upon which society is built.</p>
         <p>Now is the time. Join us.</p>
-        <p className="pt-[20px]">December 5, 2024</p>
         <p><a href="mailto:hello@machinephase.systems">hello@machinephase.systems</a></p>
       </div>
     </div>
